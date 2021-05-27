@@ -5,9 +5,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="1. function">
-      <UniqueIdentifier>{24cdb92c-3021-43b6-aa69-8561dcc5af63}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="modoocode.cpp" />
@@ -15,17 +12,5 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="function.h">
-      <Filter>1. function</Filter>
-    </ClInclude>
-    <ClInclude Include="parameter.h">
-      <Filter>1. function</Filter>
-    </ClInclude>
-    <ClInclude Include="interface.h">
-      <Filter>1. function</Filter>
-    </ClInclude>
-    <ClInclude Include="Data.h">
-      <Filter>1. function</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
