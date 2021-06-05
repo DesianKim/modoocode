@@ -4,6 +4,7 @@
 
 namespace Excel
 {
+	using DataType = std::string;
 	class Vector
 	{
 	public:
@@ -13,16 +14,16 @@ namespace Excel
 		virtual ~Vector() noexcept;
 
 	public:
-		void push_back(const std::string& s);
+		void push_back(const DataType& s);
 		void remove(const size_t i);
 		size_t size() const noexcept;
-		std::string& operator[](const size_t x) const;
+		DataType& operator[](const size_t x) const;
 
 		Vector& operator=(const Vector& rhs) = delete;
 		Vector(const Vector& rhs) = delete;
 
 	private:
-		std::string* m_pData;
+		DataType* m_pData;
 		size_t m_nCapacity;
 		size_t m_nLength;
 

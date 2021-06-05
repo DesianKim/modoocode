@@ -2,7 +2,7 @@
 #include "MyVector.h"
 
 Excel::Vector::Vector(size_t n) noexcept
-	: m_pData(new std::string[n]),
+	: m_pData(new DataType[n]),
 	m_nCapacity(n),
 	m_nLength(0)
 {
@@ -17,11 +17,11 @@ Excel::Vector::~Vector() noexcept
 	}
 }
 
-void Excel::Vector::push_back(const std::string& s)
+void Excel::Vector::push_back(const DataType& s)
 {
 	if (m_nCapacity <= m_nLength)
 	{
-		std::string* temp = new std::string[m_nCapacity * 2];
+		DataType* temp = new DataType[m_nCapacity * 2];
 		
 		for (uint32_t i = 0; i < m_nLength; ++i)
 		{
@@ -51,7 +51,7 @@ size_t Excel::Vector::size() const noexcept
 	return m_nLength;
 }
 
-std::string& Excel::Vector::operator[](const size_t i) const
+Excel::DataType& Excel::Vector::operator[](const size_t i) const
 {
 	return m_pData[i];
 }
