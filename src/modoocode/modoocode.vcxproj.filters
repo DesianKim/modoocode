@@ -15,11 +15,13 @@
     <ClCompile Include="MyVector.cpp">
       <Filter>8_1_Excel</Filter>
     </ClCompile>
+    <ClCompile Include="MyStack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="MyVector.h">
       <Filter>8_1_Excel</Filter>
     </ClInclude>
+    <ClInclude Include="MyStack.h" />
   </ItemGroup>
 </Project>

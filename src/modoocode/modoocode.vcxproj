@@ -153,10 +153,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="MyStack.h" />
     <ClInclude Include="MyVector.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="MyStack.cpp" />
     <ClCompile Include="MyVector.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp">
