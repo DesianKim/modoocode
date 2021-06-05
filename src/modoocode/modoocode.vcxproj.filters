@@ -11,14 +11,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="excel.cpp">
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyVector.cpp">
       <Filter>8_1_Excel</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="excel.h">
+    <ClInclude Include="MyVector.h">
       <Filter>8_1_Excel</Filter>
     </ClInclude>
   </ItemGroup>
