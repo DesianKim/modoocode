@@ -24,6 +24,9 @@
     <ClCompile Include="Cell.cpp">
       <Filter>8_1_Excel</Filter>
     </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>8_1_Excel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -37,6 +40,9 @@
       <Filter>8_1_Excel</Filter>
     </ClInclude>
     <ClInclude Include="Cell.h">
+      <Filter>8_1_Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
       <Filter>8_1_Excel</Filter>
     </ClInclude>
   </ItemGroup>
