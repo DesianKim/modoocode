@@ -16,12 +16,12 @@ namespace Excel
 		virtual ~Table() noexcept;
 
 		void reg_cell(Cell* c, int32_t row, int32_t col);
-		int to_numeric(const std::string& s);
+		int to_numeric(const DataType& sData);
 		int to_numeric(int32_t row, int32_t col);
-		std::string stringify(const std::string& s);
-		std::string stringify(int32_t row, int32_t col);
+		DataType stringify(const DataType& sData);
+		DataType stringify(int32_t row, int32_t col);
 
-		virtual std::string print_table() = 0;
+		virtual DataType print_table() = 0;
 
 	protected:
 		int32_t m_nMaxRowSize, m_nMaxColSize;
