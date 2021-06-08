@@ -1,11 +1,13 @@
 #pragma once
 #include <cstdint>
 #include <string>
-// Forward declaration
-class Cell;
 
 namespace Excel
 {
+	// Forward declaration
+	class Cell;
+
+	using DataType = std::string;
 	class Table
 	{
 	public:

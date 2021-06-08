@@ -2,11 +2,11 @@
 #include <cstdint>
 #include <string>
 
-// Forward declaration
-class Table;
-
 namespace Excel
 {
+	// Forward declaration
+	class Table;
+
 	class Cell
 	{
 	public:
