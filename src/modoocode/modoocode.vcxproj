@@ -23,7 +23,7 @@
     <ProjectGuid>{45C9FADF-5445-44D5-9A0C-5C298FAAAC4D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>modoocode</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
