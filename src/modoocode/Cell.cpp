@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "Cell.h"
 
-Excel::Cell::Cell(std::string sData, int32_t nX, int32_t nY, Table* pTable)
+Excel::Cell::Cell(std::string sData, int32_t nX, int32_t nY, Table* pTable) noexcept
 	: m_sData(sData),
 	m_nX(nX),
 	m_nY(nY),
@@ -9,7 +9,7 @@ Excel::Cell::Cell(std::string sData, int32_t nX, int32_t nY, Table* pTable)
 {
 }
 
-Excel::Cell::~Cell()
+Excel::Cell::~Cell() noexcept
 {
 }
 

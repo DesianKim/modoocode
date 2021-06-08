@@ -1,13 +1,13 @@
 #include "pch.h"
 #include "MyStack.h"
 
-Excel::Stack::Stack()
+Excel::Stack::Stack() noexcept
 	: m_start(nullptr, "")
 {
 	m_pCurrent = &m_start;
 }
 
-Excel::Stack::~Stack()
+Excel::Stack::~Stack() noexcept
 {
 	while (m_pCurrent != &m_start)
 	{

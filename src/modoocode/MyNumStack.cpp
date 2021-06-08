@@ -1,14 +1,14 @@
 #include "pch.h"
 #include "MyNumStack.h"
 
-Excel::NumStack::NumStack()
+Excel::NumStack::NumStack() noexcept
 	: m_start(nullptr, 0)
 {
 	m_pCurrent = &m_start;
 }
 
 
-Excel::NumStack::~NumStack()
+Excel::NumStack::~NumStack() noexcept
 {
 	while (m_pCurrent != &m_start)
 	{

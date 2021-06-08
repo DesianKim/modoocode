@@ -7,8 +7,8 @@ namespace Excel
 	class NumStack
 	{
 	public:
-		NumStack();
-		virtual ~NumStack();
+		NumStack() noexcept;
+		virtual ~NumStack() noexcept;
 
 		void push(const NumStackDataType& Data) noexcept;
 		const NumStackDataType pop();

@@ -7,8 +7,8 @@ namespace Excel
 	class Stack
 	{
 	public:
-		Stack();
-		virtual ~Stack();
+		Stack() noexcept;
+		virtual ~Stack() noexcept;
 
 		void push(const DataType& Data) noexcept;
 		const DataType pop();
