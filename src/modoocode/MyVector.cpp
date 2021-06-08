@@ -39,7 +39,7 @@ void Excel::Vector::push_back(const DataType& s)
 
 void Excel::Vector::remove(const size_t x)
 {
-	for (uint32_t i = x + 1; i < m_nLength; ++i)
+	for (size_t i = x + 1; i < m_nLength; ++i)
 	{
 		m_pData[i - 1] = m_pData[i];
 	}
