@@ -2,3 +2,4 @@ bin/
 build/.vs/
 *.user
 temp/
+src/modoocode/.vs/
