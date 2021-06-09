@@ -1,6 +1,5 @@
 #include "pch.h"
 #include "Table.h"
-#include "Cell.h"
 
 Excel::Table::Table(int32_t nMaxRowSize, int32_t nMaxColSize) noexcept
 	: m_nMaxRowSize(nMaxRowSize),
