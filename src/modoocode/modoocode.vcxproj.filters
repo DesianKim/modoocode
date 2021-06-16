@@ -23,6 +23,7 @@
     <ClCompile Include="Table.cpp">
       <Filter>8_1_Excel</Filter>
     </ClCompile>
+    <ClCompile Include="TxtTable.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -41,5 +42,6 @@
     <ClInclude Include="Table.h">
       <Filter>8_1_Excel</Filter>
     </ClInclude>
+    <ClInclude Include="TxtTable.h" />
   </ItemGroup>
 </Project>

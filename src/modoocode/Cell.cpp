@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "Cell.h"
+#include "Table.h"
 
 Excel::Cell::Cell(std::string sData, int32_t nX, int32_t nY, Table* pTable) noexcept
 	: m_sData(sData),
