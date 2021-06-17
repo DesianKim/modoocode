@@ -154,6 +154,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Cell.h" />
+    <ClInclude Include="CSVTable.h" />
+    <ClInclude Include="HtmlTable.h" />
     <ClInclude Include="MyNumStack.h" />
     <ClInclude Include="MyStack.h" />
     <ClInclude Include="MyVector.h" />
@@ -163,6 +165,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="CSVTable.cpp" />
+    <ClCompile Include="HtmlTable.cpp" />
     <ClCompile Include="MyNumStack.cpp" />
     <ClCompile Include="MyStack.cpp" />
     <ClCompile Include="MyVector.cpp" />
