@@ -27,7 +27,7 @@ Excel::DataType Excel::TxtTable::print_table()
 		col_max_wide[i] = max_wide;
 	}
 
-	total_table += "   ";
+	total_table += "    ";
 	int32_t total_wide = 4;
 	for (int32_t i = 0; i < m_nMaxColSize; ++i)
 	{

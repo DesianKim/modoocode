@@ -19,3 +19,5 @@ namespace Excel
 
 	};// class TxtTable
 }// namespace Excel
+
+std::ostream& operator<<(std::ostream& o, Excel::Table& table);
