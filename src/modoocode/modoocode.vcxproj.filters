@@ -24,6 +24,12 @@
       <Filter>8_1_Excel</Filter>
     </ClCompile>
     <ClCompile Include="TxtTable.cpp" />
+    <ClCompile Include="HtmlTable.cpp">
+      <Filter>8_1_Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVTable.cpp">
+      <Filter>8_1_Excel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -43,5 +49,11 @@
       <Filter>8_1_Excel</Filter>
     </ClInclude>
     <ClInclude Include="TxtTable.h" />
+    <ClInclude Include="HtmlTable.h">
+      <Filter>8_1_Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVTable.h">
+      <Filter>8_1_Excel</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
