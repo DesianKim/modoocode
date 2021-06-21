@@ -23,11 +23,22 @@
     <ClCompile Include="Table.cpp">
       <Filter>8_1_Excel</Filter>
     </ClCompile>
-    <ClCompile Include="TxtTable.cpp" />
     <ClCompile Include="HtmlTable.cpp">
       <Filter>8_1_Excel</Filter>
     </ClCompile>
     <ClCompile Include="CSVTable.cpp">
+      <Filter>8_1_Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="TxtTable.cpp">
+      <Filter>8_1_Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="StringCell.cpp">
+      <Filter>8_1_Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberCell.cpp">
+      <Filter>8_1_Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="DateCell.cpp">
       <Filter>8_1_Excel</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,11 +59,22 @@
     <ClInclude Include="Table.h">
       <Filter>8_1_Excel</Filter>
     </ClInclude>
-    <ClInclude Include="TxtTable.h" />
     <ClInclude Include="HtmlTable.h">
       <Filter>8_1_Excel</Filter>
     </ClInclude>
     <ClInclude Include="CSVTable.h">
+      <Filter>8_1_Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="StringCell.h">
+      <Filter>8_1_Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="TxtTable.h">
+      <Filter>8_1_Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberCell.h">
+      <Filter>8_1_Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="DateCell.h">
       <Filter>8_1_Excel</Filter>
     </ClInclude>
   </ItemGroup>
