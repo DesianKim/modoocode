@@ -155,28 +155,34 @@
   <ItemGroup>
     <ClInclude Include="Cell.h" />
     <ClInclude Include="CSVTable.h" />
+    <ClInclude Include="DateCell.h" />
     <ClInclude Include="HtmlTable.h" />
     <ClInclude Include="MyNumStack.h" />
     <ClInclude Include="MyStack.h" />
     <ClInclude Include="MyVector.h" />
+    <ClInclude Include="NumberCell.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="StringCell.h" />
     <ClInclude Include="Table.h" />
     <ClInclude Include="TxtTable.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cell.cpp" />
     <ClCompile Include="CSVTable.cpp" />
+    <ClCompile Include="DateCell.cpp" />
     <ClCompile Include="HtmlTable.cpp" />
     <ClCompile Include="MyNumStack.cpp" />
     <ClCompile Include="MyStack.cpp" />
     <ClCompile Include="MyVector.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NumberCell.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="StringCell.cpp" />
     <ClCompile Include="Table.cpp" />
     <ClCompile Include="TxtTable.cpp" />
   </ItemGroup>
