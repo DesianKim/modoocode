@@ -156,6 +156,7 @@
     <ClInclude Include="Cell.h" />
     <ClInclude Include="CSVTable.h" />
     <ClInclude Include="DateCell.h" />
+    <ClInclude Include="ExprCell.h" />
     <ClInclude Include="HtmlTable.h" />
     <ClInclude Include="MyNumStack.h" />
     <ClInclude Include="MyStack.h" />
@@ -170,6 +171,7 @@
     <ClCompile Include="Cell.cpp" />
     <ClCompile Include="CSVTable.cpp" />
     <ClCompile Include="DateCell.cpp" />
+    <ClCompile Include="ExprCell.cpp" />
     <ClCompile Include="HtmlTable.cpp" />
     <ClCompile Include="MyNumStack.cpp" />
     <ClCompile Include="MyStack.cpp" />

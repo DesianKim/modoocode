@@ -4,6 +4,9 @@
     <Filter Include="8_1_Excel">
       <UniqueIdentifier>{08343bc4-36ee-47ec-8720-fcfe5f7331bc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="8_2_Excel">
+      <UniqueIdentifier>{da35a05b-6ace-442a-808e-951321db642d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -41,6 +44,9 @@
     <ClCompile Include="DateCell.cpp">
       <Filter>8_1_Excel</Filter>
     </ClCompile>
+    <ClCompile Include="ExprCell.cpp">
+      <Filter>8_2_Excel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -76,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="DateCell.h">
       <Filter>8_1_Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="ExprCell.h">
+      <Filter>8_2_Excel</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
