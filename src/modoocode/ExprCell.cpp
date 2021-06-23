@@ -64,6 +64,18 @@ void Excel::ExprCell::parse_expresstion()
 	}
 }
 
+Excel::ExprCell::ExprCell(std::string data, int32_t x, int32_t y, Table* t)
+	: m_data(data),
+	Cell(x, y, t)
+{
+}
+
+std::string Excel::ExprCell::stringify()
+{
+	parse_expresstion();
+	return std::to_string(to_numeric());
+}
+
 int32_t Excel::ExprCell::to_numeric()
 {
 	double result = 0;
