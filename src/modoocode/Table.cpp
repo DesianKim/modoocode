@@ -47,8 +47,8 @@ void Excel::Table::reg_cell(Cell* c, int32_t row, int32_t col)
 
 int Excel::Table::to_numeric(const DataType& sData)
 {
-	int32_t row = sData[0] - 'A';
-	int32_t col = atoi(sData.c_str() + 1) - 1;
+	int32_t col = sData[0] - 'A';
+	int32_t row = atoi(sData.c_str() + 1) - 1;
 
 	if (row < m_nMaxRowSize && col < m_nMaxColSize)
 	{
