@@ -47,6 +47,9 @@
     <ClCompile Include="ExprCell.cpp">
       <Filter>8_2_Excel</Filter>
     </ClCompile>
+    <ClCompile Include="MyExcel.cpp">
+      <Filter>8_2_Excel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -84,6 +87,9 @@
       <Filter>8_1_Excel</Filter>
     </ClInclude>
     <ClInclude Include="ExprCell.h">
+      <Filter>8_2_Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="MyExcel.h">
       <Filter>8_2_Excel</Filter>
     </ClInclude>
   </ItemGroup>
