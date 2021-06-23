@@ -8,7 +8,6 @@ namespace Excel
 	class Vector
 	{
 	public:
-		Vector() = delete;
 		Vector(size_t n = 1) noexcept;
 		
 		virtual ~Vector() noexcept;

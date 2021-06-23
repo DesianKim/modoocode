@@ -12,12 +12,11 @@ Excel::NumStack::~NumStack() noexcept
 {
 	while (m_pCurrent != &m_start)
 	{
-		Node* temp = m_pCurrent->pPrev;
-		m_pCurrent = temp->pPrev;
+		Node* temp = m_pCurrent;
+		m_pCurrent = m_pCurrent->pPrev;
 
 		delete temp;
 	}
-	delete m_pCurrent;
 }
 
 void Excel::NumStack::push(const NumStackDataType& Data) noexcept
