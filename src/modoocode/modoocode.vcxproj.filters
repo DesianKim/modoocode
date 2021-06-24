@@ -7,6 +7,9 @@
     <Filter Include="8_2_Excel">
       <UniqueIdentifier>{da35a05b-6ace-442a-808e-951321db642d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="9_1_Template">
+      <UniqueIdentifier>{385bb4a5-344f-4d11-a098-0bb2f5cf7b48}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -91,6 +94,9 @@
     </ClInclude>
     <ClInclude Include="MyExcel.h">
       <Filter>8_2_Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="9_1_Vector.h">
+      <Filter>9_1_Template</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
