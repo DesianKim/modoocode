@@ -98,5 +98,8 @@
     <ClInclude Include="9_1_Vector.h">
       <Filter>9_1_Template</Filter>
     </ClInclude>
+    <ClInclude Include="FuncTemplate.h">
+      <Filter>9_1_Template</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

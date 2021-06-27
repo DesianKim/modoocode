@@ -157,6 +157,7 @@
     <ClInclude Include="Cell.h" />
     <ClInclude Include="CSVTable.h" />
     <ClInclude Include="DateCell.h" />
+    <ClInclude Include="FuncTemplate.h" />
     <ClInclude Include="MyExcel.h" />
     <ClInclude Include="ExprCell.h" />
     <ClInclude Include="HtmlTable.h" />

@@ -61,6 +61,13 @@ namespace Template
 			return m_nLength;
 		};
 
+		void swap(int32_t i, int32_t j)
+		{
+			T temp = m_pData[i];
+			m_pData[i] = m_pData[j];
+			m_pData[j] = temp;
+		}
+
 		T& operator[](const size_t i) const
 		{
 			return m_pData[i];
