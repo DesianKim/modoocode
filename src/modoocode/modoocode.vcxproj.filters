@@ -101,5 +101,8 @@
     <ClInclude Include="FuncTemplate.h">
       <Filter>9_1_Template</Filter>
     </ClInclude>
+    <ClInclude Include="VariadicTemplate.h">
+      <Filter>9_1_Template</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

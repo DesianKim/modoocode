@@ -169,6 +169,7 @@
     <ClInclude Include="StringCell.h" />
     <ClInclude Include="Table.h" />
     <ClInclude Include="TxtTable.h" />
+    <ClInclude Include="VariadicTemplate.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cell.cpp" />
