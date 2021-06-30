@@ -59,20 +59,35 @@ void AppendToString(std::string& concat_str, const T& s, Types... strs)
 	AppendToString(concat_str, strs...);
 }
 
-// 재귀 호출 종료를 위한 베이스 케이스
-int32_t sum_all()
-{
-	return 0;
-}
-
 template <typename... Ints>
-int32_t sum_all(int32_t num, Ints... nums)
+int32_t sum_all(Ints... nums)
 {
-	return num + sum_all(nums...);
+	return (... + nums);
 }
 
 template <typename... Ints>
 double average(Ints... nums)
 {
 	return static_cast<double>(sum_all(nums...)) / sizeof...(nums);
+}
+
+template <typename Int, typename... Ints>
+Int diff_from(Int start, Ints... nums)
+{
+	return (start - ... - nums);
+}
+
+class A
+{
+public:
+	void do_something(int32_t x) const
+	{
+		std::cout << "Do somethis with " << x << std::endl;
+	}
+};
+
+template <typename T, typename... Ints>
+void do_many_things(const T& t, Ints... nums)
+{
+	(t.do_something(nums), ...);
 }
