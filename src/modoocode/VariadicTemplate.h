@@ -41,19 +41,38 @@ std::string StrCat(const T& s, Types... strs)
 
 	concat_str = s;
 
-	AppendToString(&concat_str, strs...);
+	AppendToString(concat_str, strs...);
 
 	return concat_str;
 }
 
-void AppendToString(std::string* concat_str)
+// 재귀 호출 종료를 위한 베이스 케이스
+void AppendToString(std::string& concat_str)
 {
 	return;
 }
 
 template <typename T, typename... Types>
-void AppendToString(std::string* concat_str, const T& s, Types... strs)
+void AppendToString(std::string& concat_str, const T& s, Types... strs)
 {
-	concat_str->append(s);
+	concat_str.append(s);
 	AppendToString(concat_str, strs...);
+}
+
+// 재귀 호출 종료를 위한 베이스 케이스
+int32_t sum_all()
+{
+	return 0;
+}
+
+template <typename... Ints>
+int32_t sum_all(int32_t num, Ints... nums)
+{
+	return num + sum_all(nums...);
+}
+
+template <typename... Ints>
+double average(Ints... nums)
+{
+	return static_cast<double>(sum_all(nums...)) / sizeof...(nums);
 }
