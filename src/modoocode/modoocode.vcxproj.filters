@@ -104,5 +104,11 @@
     <ClInclude Include="VariadicTemplate.h">
       <Filter>9_1_Template</Filter>
     </ClInclude>
+    <ClInclude Include="MyArray.h">
+      <Filter>9_1_Template</Filter>
+    </ClInclude>
+    <ClInclude Include="TMP.h">
+      <Filter>9_1_Template</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

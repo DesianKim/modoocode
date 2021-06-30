@@ -162,6 +162,7 @@
     <ClInclude Include="CSVTable.h" />
     <ClInclude Include="DateCell.h" />
     <ClInclude Include="FuncTemplate.h" />
+    <ClInclude Include="MyArray.h" />
     <ClInclude Include="MyExcel.h" />
     <ClInclude Include="ExprCell.h" />
     <ClInclude Include="HtmlTable.h" />
@@ -172,6 +173,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="StringCell.h" />
     <ClInclude Include="Table.h" />
+    <ClInclude Include="TMP.h" />
     <ClInclude Include="TxtTable.h" />
     <ClInclude Include="VariadicTemplate.h" />
   </ItemGroup>
