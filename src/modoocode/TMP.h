@@ -24,3 +24,15 @@ struct Factorial<1>
 {
 	static const int32_t result = 1;
 };
+
+template <int32_t X, int32_t Y>
+struct GCD
+{
+	static const int32_t value = GCD<Y, X % Y>::value;
+};
+
+template <int32_t X>
+struct GCD<X, 0>
+{
+	static const int32_t value = X;
+};
