@@ -171,6 +171,7 @@
     <ClInclude Include="MyVector.h" />
     <ClInclude Include="NumberCell.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Ratio.h" />
     <ClInclude Include="StringCell.h" />
     <ClInclude Include="Table.h" />
     <ClInclude Include="TMP.h" />

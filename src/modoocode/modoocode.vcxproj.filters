@@ -110,5 +110,8 @@
     <ClInclude Include="TMP.h">
       <Filter>9_1_Template</Filter>
     </ClInclude>
+    <ClInclude Include="Ratio.h">
+      <Filter>9_1_Template</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
