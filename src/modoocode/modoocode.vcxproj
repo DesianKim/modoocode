@@ -176,6 +176,7 @@
     <ClInclude Include="Table.h" />
     <ClInclude Include="TMP.h" />
     <ClInclude Include="TxtTable.h" />
+    <ClInclude Include="Unit.h" />
     <ClInclude Include="VariadicTemplate.h" />
   </ItemGroup>
   <ItemGroup>
