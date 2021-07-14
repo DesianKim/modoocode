@@ -168,6 +168,7 @@
     <ClInclude Include="HtmlTable.h" />
     <ClInclude Include="MyNumStack.h" />
     <ClInclude Include="MyStack.h" />
+    <ClInclude Include="MyString.h" />
     <ClInclude Include="MyVector.h" />
     <ClInclude Include="NumberCell.h" />
     <ClInclude Include="pch.h" />

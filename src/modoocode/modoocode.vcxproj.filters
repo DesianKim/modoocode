@@ -10,6 +10,9 @@
     <Filter Include="9_Template">
       <UniqueIdentifier>{385bb4a5-344f-4d11-a098-0bb2f5cf7b48}</UniqueIdentifier>
     </Filter>
+    <Filter Include="10_String">
+      <UniqueIdentifier>{61e586e6-23d5-4479-aa47-3f398b340523}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -115,6 +118,9 @@
     </ClInclude>
     <ClInclude Include="Unit.h">
       <Filter>9_Template</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>10_String</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
