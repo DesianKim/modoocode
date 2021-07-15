@@ -31,3 +31,9 @@ struct my_char_traits : public std::char_traits<char>
 		return 0;
 	}
 };
+
+void* operator new(std::size_t count)
+{
+	std::cout << count << " bytes วาด็ " << std::endl;
+	return malloc(count);
+}
