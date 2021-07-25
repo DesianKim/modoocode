@@ -13,6 +13,9 @@
     <Filter Include="10_String">
       <UniqueIdentifier>{61e586e6-23d5-4479-aa47-3f398b340523}</UniqueIdentifier>
     </Filter>
+    <Filter Include="12_Move">
+      <UniqueIdentifier>{0985dd96-674f-4062-81e1-d2b045623e54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -55,6 +58,9 @@
     </ClCompile>
     <ClCompile Include="MyExcel.cpp">
       <Filter>8_2_Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>12_Move</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -119,8 +125,11 @@
     <ClInclude Include="Unit.h">
       <Filter>9_Template</Filter>
     </ClInclude>
-    <ClInclude Include="MyString.h">
+    <ClInclude Include="MyStringTraits.h">
       <Filter>10_String</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>12_Move</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

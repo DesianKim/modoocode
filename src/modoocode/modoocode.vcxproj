@@ -169,6 +169,7 @@
     <ClInclude Include="MyNumStack.h" />
     <ClInclude Include="MyStack.h" />
     <ClInclude Include="MyString.h" />
+    <ClInclude Include="MyStringTraits.h" />
     <ClInclude Include="MyVector.h" />
     <ClInclude Include="NumberCell.h" />
     <ClInclude Include="pch.h" />
@@ -189,6 +190,7 @@
     <ClCompile Include="HtmlTable.cpp" />
     <ClCompile Include="MyNumStack.cpp" />
     <ClCompile Include="MyStack.cpp" />
+    <ClCompile Include="MyString.cpp" />
     <ClCompile Include="MyVector.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NumberCell.cpp" />
