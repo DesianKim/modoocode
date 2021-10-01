@@ -16,6 +16,9 @@
     <Filter Include="12_Move">
       <UniqueIdentifier>{0985dd96-674f-4062-81e1-d2b045623e54}</UniqueIdentifier>
     </Filter>
+    <Filter Include="15_Thread">
+      <UniqueIdentifier>{02e876e5-80c6-4609-91e7-c976ba02875a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -61,6 +64,9 @@
     </ClCompile>
     <ClCompile Include="MyString.cpp">
       <Filter>12_Move</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>15_Thread</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +136,9 @@
     </ClInclude>
     <ClInclude Include="MyString.h">
       <Filter>12_Move</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>15_Thread</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

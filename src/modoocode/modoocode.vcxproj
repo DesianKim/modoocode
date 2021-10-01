@@ -176,6 +176,7 @@
     <ClInclude Include="Ratio.h" />
     <ClInclude Include="StringCell.h" />
     <ClInclude Include="Table.h" />
+    <ClInclude Include="ThreadPool.h" />
     <ClInclude Include="TMP.h" />
     <ClInclude Include="TxtTable.h" />
     <ClInclude Include="Unit.h" />
@@ -202,6 +203,7 @@
     </ClCompile>
     <ClCompile Include="StringCell.cpp" />
     <ClCompile Include="Table.cpp" />
+    <ClCompile Include="ThreadPool.cpp" />
     <ClCompile Include="TxtTable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
